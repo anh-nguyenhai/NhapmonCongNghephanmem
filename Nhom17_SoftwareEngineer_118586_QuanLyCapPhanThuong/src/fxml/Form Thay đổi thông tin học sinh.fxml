@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="355.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thay đổi thông tin học sinh">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="80.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lớp:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="500.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trường:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="80.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Học lực:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="500.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thành tích đăc biệt:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="80.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minh chứng 1:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="500.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minh chứng 2:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField layoutX="256.0" layoutY="150.0" prefHeight="44.0" prefWidth="178.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="688.0" layoutY="150.0" prefHeight="44.0" prefWidth="178.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="256.0" layoutY="220.0" prefHeight="44.0" prefWidth="178.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="256.0" layoutY="290.0" prefHeight="44.0" prefWidth="178.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="688.0" layoutY="220.0" prefHeight="44.0" prefWidth="178.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="688.0" layoutY="290.0" prefHeight="44.0" prefWidth="178.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button layoutX="355.0" layoutY="373.0" mnemonicParsing="false" text="Apply">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="563.0" layoutY="373.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

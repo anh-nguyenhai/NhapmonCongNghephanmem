@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="764.0" prefWidth="1054.0" style="-fx-background-color: #eeeeee;" stylesheets="@../css/MainFrameCss.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="62.0" layoutY="28.0" text="Ngày phát quà:" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="70.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="70.0" text="Tổng số quà: " AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="70.0" text="Tổng số tiền:" AnchorPane.leftAnchor="600.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TableView layoutX="418.0" layoutY="148.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@../../../Quan_ly_cap_phan_thuong/QuanLyCapPhanThuong-NguyenHuuKiet/src/css/MainFrameCss.css" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="230.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="329.0" layoutY="33.0" text="THỐNG KÊ PHÁT QUÀ THEO NGÀY" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="123.0" layoutY="191.0" prefHeight="35.0" prefWidth="330.0" AnchorPane.leftAnchor="123.0" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="44.0" fitWidth="51.0" layoutX="60.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="160.0">
+         <image>
+            <Image url="icons\search.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="ngayPhat" layoutX="260.0" layoutY="90.0" text="Label" AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="70.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="tongQua" layoutX="260.0" layoutY="135.0" text="Label" AnchorPane.leftAnchor="240.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="tongTien" layoutX="775.0" layoutY="135.0" text="Label" AnchorPane.leftAnchor="750.0" AnchorPane.topAnchor="110.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

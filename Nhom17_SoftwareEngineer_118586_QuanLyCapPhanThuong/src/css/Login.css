@@ -1,0 +1,28 @@
+.button{
+-fx-background-color:  #64dd17;
+-fx-background-radius: 90;
+-fx-font-family:"Tahoma";
+-fx-text-fill:white;
+-fx-font-size: 20;
+-fx-pref-width:250;
+-fx-pref-height:45;
+}
+
+.button:hover{
+-fx-background-color: black;
+-fx-background-radius: 90;
+-fx-font-family:"Tahoma";
+-fx-text-fill:white;
+-fx-font-size: 20;
+-fx-pref-width:250;
+-fx-pref-height:45;
+}
+
+.button:selected{-fx-background-color: black;
+-fx-background-radius: 90;
+-fx-font-family:"Tahoma";
+-fx-text-fill:white;
+-fx-font-size: 20;
+-fx-pref-width:250;
+-fx-pref-height:45;
+}

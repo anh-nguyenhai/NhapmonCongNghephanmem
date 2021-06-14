@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ComboBox layoutX="74.0" layoutY="120.0" prefHeight="45.0" prefWidth="170.0" promptText="Loại quà" />
+      <Label layoutX="242.0" layoutY="31.0" prefHeight="75.0" prefWidth="117.0" text="Thêm quà">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="74.0" layoutY="224.0" prefHeight="45.0" prefWidth="462.0" promptText="Mô tả">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="327.0" layoutY="120.0" prefHeight="45.0" prefWidth="160.0" promptText="Giá trị">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="163.0" layoutY="309.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="130.0" text="Apply">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="318.0" layoutY="309.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="130.0" text="Cancel">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="74.0" layoutY="179.0" prefHeight="39.0" prefWidth="219.0" text="Mô tả phần quà:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="120.0" prefHeight="45.0" prefWidth="61.0" text="Giá trị:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

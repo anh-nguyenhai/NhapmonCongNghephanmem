@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="799.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="194.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHÁT PHẦN THƯỞNG DỊP ĐẶC BIỆT" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <TextField layoutX="461.0" layoutY="260.0" promptText="Dịp phát quà">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <DatePicker layoutX="461.0" layoutY="170.0" prefHeight="51.0" prefWidth="298.0" />
+      <Text layoutX="230.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ngày phát quà:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="230.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dịp phát quà:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="230.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phần quà:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="133.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tổng quà: ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="535.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tổng tiền:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="345.0" layoutY="668.0" mnemonicParsing="false" text="Apply">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="588.0" layoutY="668.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ComboBox layoutX="461.0" layoutY="351.0" prefHeight="51.0" prefWidth="298.0" promptText="Mô tả phần quà" />
+      <Button layoutX="133.0" layoutY="464.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="135.0" text="Dự tính">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="261.0" layoutY="554.0" prefHeight="51.0" prefWidth="209.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextArea>
+      <TextArea layoutX="661.0" layoutY="554.0" prefHeight="51.0" prefWidth="210.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>

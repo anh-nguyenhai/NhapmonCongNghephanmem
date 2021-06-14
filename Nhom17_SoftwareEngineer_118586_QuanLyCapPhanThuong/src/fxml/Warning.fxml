@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="173.0" prefWidth="468.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="141.0" layoutY="34.0" prefHeight="41.0" prefWidth="287.0" text="Are you sure to delete?" textFill="#0060fc" wrapText="true" AnchorPane.bottomAnchor="98.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="34.0">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="83.0" fitWidth="73.0" layoutX="48.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="352.40206146240234" AnchorPane.topAnchor="21.0">
+         <image>
+            <Image url="icons/warning.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="121.0" layoutY="232.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="152.0" text="OK" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="80.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="322.0" layoutY="232.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="144.0" text="Cancel" AnchorPane.bottomAnchor="18.0" AnchorPane.rightAnchor="80.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

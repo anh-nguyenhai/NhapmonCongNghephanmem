@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="71.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Họ tên học sinh:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="72.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Địa chỉ:" wrappingWidth="80.2578125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="72.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lớp:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="514.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trường:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="72.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Học lực:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="514.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thành tích:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="72.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minh chứng học lực:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField layoutX="291.0" layoutY="104.0" prefHeight="44.0" prefWidth="619.0" promptText="Họ tên">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Text layoutX="515.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minh chứng thành tích:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField layoutX="291.0" layoutY="174.0" prefHeight="44.0" prefWidth="619.0" promptText="Địa chỉ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="291.0" layoutY="244.0" prefHeight="44.0" prefWidth="178.0" promptText="Lớp">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="639.0" layoutY="244.0" prefHeight="44.0" prefWidth="270.0" promptText="Trường">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="291.0" layoutY="314.0" prefHeight="44.0" prefWidth="178.0" promptText="Học lực">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="639.0" layoutY="313.0" prefHeight="44.0" prefWidth="270.0" promptText="Thành tích">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Label layoutX="338.0" layoutY="19.0" text="Thông tin chi tiết">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView id="minhChungHocLuc" fitHeight="326.0" fitWidth="396.0" layoutX="71.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="minhChungThanhTich" fitHeight="326.0" fitWidth="396.0" layoutX="514.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true" />
+      <Separator layoutX="483.0" layoutY="385.0" orientation="VERTICAL" prefHeight="401.0" prefWidth="13.0" />
+   </children>
+</AnchorPane>

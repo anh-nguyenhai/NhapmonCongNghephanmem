@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="145.0" layoutY="180.0" prefHeight="51.0" prefWidth="298.0" promptText="ID here">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="145.0" layoutY="290.0" promptText="Mã phần quà">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="145.0" layoutY="403.0" promptText="Loại quà">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="553.0" layoutY="409.0" promptText="Mã khu vực">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="553.0" layoutY="180.0" promptText="Giá trị">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="553.0" layoutY="290.0" promptText="Mô tả">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Label layoutX="386.0" layoutY="48.0" prefHeight="53.0" prefWidth="188.0" text="Form demo">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button layoutX="299.0" layoutY="535.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="174.0" text="Apply">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="494.0" layoutY="535.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="174.0" text="Cancel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="1054.0" style="-fx-background-color: #eeeeee;" stylesheets="@../css/MainFrameCss.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="62.0" layoutY="28.0" text="Số hộ gia đình:" AnchorPane.leftAnchor="600.0" AnchorPane.topAnchor="80.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="600.0" layoutY="125.0" text="Tổng số quà: " AnchorPane.leftAnchor="600.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="125.0" text="Tổng số tiền:" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TableView layoutX="418.0" layoutY="148.0" prefHeight="509.0" prefWidth="1044.0" stylesheets="@../../../Quan_ly_cap_phan_thuong/QuanLyCapPhanThuong-NguyenHuuKiet/src/css/MainFrameCss.css" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="250.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="345.0" layoutY="30.0" text="THỐNG KÊ PHÁT QUÀ THEO HỘ" AnchorPane.leftAnchor="345.0" AnchorPane.rightAnchor="344.0" AnchorPane.topAnchor="30.0">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="soHo" layoutX="234.0" layoutY="65.0" text="Label" AnchorPane.leftAnchor="750.0" AnchorPane.topAnchor="80.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="diaChi" layoutX="200.0" layoutY="170.0" text="Label" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="170.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="tongTien" layoutX="200.0" layoutY="125.0" text="Label" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="600.0" layoutY="70.0" text="Chủ hộ:" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="80.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="chuHo" layoutX="750.0" layoutY="80.0" text="Label" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="80.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="170.0" text="Địa chỉ: " AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="170.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="tongQua" layoutX="750.0" layoutY="125.0" text="Label" AnchorPane.leftAnchor="750.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

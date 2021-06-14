@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="876.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="200.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Người thực hiện:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="203.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ngày:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="200.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hành động:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="200.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số tiền:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="200.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mô tả:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="303.0" layoutY="466.0" mnemonicParsing="false" text="Apply">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="503.0" layoutY="466.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField layoutX="438.0" layoutY="121.0" promptText="Người thực hiện">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <DatePicker layoutX="438.0" layoutY="181.0" prefHeight="44.0" prefWidth="249.0" promptText=" " />
+      <ComboBox layoutX="438.0" layoutY="241.0" prefHeight="44.0" prefWidth="249.0" />
+      <TextField layoutX="438.0" layoutY="301.0" prefHeight="44.0" prefWidth="249.0" promptText="Số tiền">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField layoutX="438.0" layoutY="361.0" prefHeight="44.0" prefWidth="249.0" promptText="Mô tả">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Label layoutX="372.0" layoutY="51.0" text="Thu chi quỹ">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

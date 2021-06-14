@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="638.0" prefWidth="1018.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="379.0" layoutY="55.0" text="THÊM NHÂN KHẨU">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="160.0" text="Họ tên:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="240.0" text="Giới tính:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="310.0" text="Ngày sinh:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="380.0" text="Địa chỉ:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="334.0" layoutY="152.0" prefHeight="51.0" prefWidth="561.0" promptText="Họ tên">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="334.0" layoutY="372.0" prefHeight="51.0" prefWidth="561.0" promptText="Địa chỉ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <DatePicker layoutX="334.0" layoutY="302.0" prefHeight="51.0" prefWidth="561.0" />
+      <Button layoutX="328.0" layoutY="495.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="103.0" text="Apply">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="588.0" layoutY="495.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ComboBox layoutX="334.0" layoutY="228.0" prefHeight="51.0" prefWidth="561.0" />
+   </children>
+</AnchorPane>
